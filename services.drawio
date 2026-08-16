@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="CampusEats ER Diagram" id="0">
+    <mxGraphModel dx="858" dy="-581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ghBPquqcgZvBTXKudlFv-1" edge="1" parent="1" source="ghBPquqcgZvBTXKudlFv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.138;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="ghBPquqcgZvBTXKudlFv-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775.2307316523331" y="1516.4615760216345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#d80073, #1ba4a7);fontColor=#ffffff;strokeColor=#A50040;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;User Service&amp;nbsp;&lt;/b&gt;&lt;div&gt;Shivam&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; white-space: pre-wrap; color: rgb(249, 250, 251); font-family: Menlo, Monaco, Consolas, &amp;quot;Cascadia Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;JetBrains Mono&amp;quot;, &amp;quot;Fira Code&amp;quot;, Cousine, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, sans-serif, system-ui; font-size: 13px; text-align: start;&quot;&gt;  &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;div&gt;-------------------------------------------&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Owns :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Users&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Profiles&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Refresh Token&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="675.2307316523331" y="1156.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#d80073, #10bac6);fontColor=#ffffff;strokeColor=#A50040;" value="&lt;b&gt;Catalogue Service&amp;nbsp;&lt;/b&gt;&lt;div&gt;Aniket&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;------------------------------------------------&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Owns :&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;• Vendors&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;• Menus&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;• Menu items&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;• Inventory&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="975.2307316523331" y="1156.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Order Service&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;Aman Tripathi&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;---------------------------------&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Owns :&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Orders&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Order Items&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Order Status History&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="430" x="715.2307316523331" y="1556.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="&lt;b&gt;Payments Service&amp;nbsp;&lt;/b&gt;&lt;div&gt;Raghav&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;div&gt;------------------------------------------&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Owns :&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;• Payments&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;• Transactions&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="675.2307316523331" y="1876.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-6" edge="1" parent="1" source="ghBPquqcgZvBTXKudlFv-4" style="endArrow=classic;html=1;rounded=0;exitX=0.093;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.391;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="ghBPquqcgZvBTXKudlFv-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="955.2307316523331" y="1816.4615760216345" as="sourcePoint" />
+            <mxPoint x="995.2307316523331" y="1826.4615760216345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" value="&lt;b&gt;Delivery Service&amp;nbsp;&lt;/b&gt;&lt;div&gt;Nikhil&lt;div&gt;&lt;b&gt;------------------------------------------&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Owns :&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Deliveries&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Delivery Locations&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;• Delivery Staff&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="200" x="1025.2307316523331" y="1876.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-8" edge="1" parent="1" source="ghBPquqcgZvBTXKudlFv-4" style="endArrow=classic;html=1;rounded=0;exitX=0.931;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1005.2307316523331" y="1726.4615760216345" as="sourcePoint" />
+            <mxPoint x="1114.150731652333" y="1876.4615760216345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Validate User()" vertex="1">
+          <mxGeometry height="30" width="150" x="745.2307316523331" y="1426.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Check Availability()" vertex="1">
+          <mxGeometry height="30" width="120" x="1075.2307316523331" y="1426.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Process Payment()" vertex="1">
+          <mxGeometry height="30" width="130" x="745.2307316523331" y="1776.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Create Delivery()" vertex="1">
+          <mxGeometry height="30" width="140" x="1095.2307316523331" y="1776.4615760216345" as="geometry" />
+        </mxCell>
+        <mxCell id="ghBPquqcgZvBTXKudlFv-13" edge="1" parent="1" source="ghBPquqcgZvBTXKudlFv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.836;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="ghBPquqcgZvBTXKudlFv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
