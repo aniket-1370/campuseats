@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:uni="urn:unipay:payments">
+
+    <soap:Body>
+
+        <uni:chargeResponse>
+
+            <transactionId>
+                TX_UNIPAY_5521_8934
+            </transactionId>
+
+            <status>
+                CAPTURED
+            </status>
+
+            <authCode>
+                AUTH_789XYZ
+            </authCode>
+
+            <timestamp>
+                2026-08-16T14:35:22+05:30
+            </timestamp>
+
+        </uni:chargeResponse>
+
+    </soap:Body>
+
+</soap:Envelope>

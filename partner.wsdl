@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+             xmlns:tns="urn:unipay:payments"
+             targetNamespace="urn:unipay:payments">
+
+    <!-- TYPES -->
+    <types>
+        <xsd:schema targetNamespace="urn:unipay:payments">
+
+            <xsd:element name="chargeRequest">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="merchantId" type="xsd:string"/>
+                        <xsd:element name="cardToken" type="xsd:string"/>
+                        <xsd:element name="amount" type="xsd:decimal"/>
+                        <xsd:element name="currency" type="xsd:string"/>
+                        <xsd:element name="orderReference" type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+            <xsd:element name="chargeResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="transactionId" type="xsd:string"/>
+                        <xsd:element name="status" type="xsd:string"/>
+                        <xsd:element name="authCode" type="xsd:string"/>
+                        <xsd:element name="timestamp" type="xsd:dateTime"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+        </xsd:schema>
+    </types>
+
+    <!-- MESSAGE -->
+    <message name="chargeRequestMessage">
+        <part name="body" element="tns:chargeRequest"/>
+    </message>
+
+    <message name="chargeResponseMessage">
+        <part name="body" element="tns:chargeResponse"/>
+    </message>
+
+    <!-- PORT TYPE -->
+    <portType name="PaymentsPortType">
+        <operation name="charge">
+            <input message="tns:chargeRequestMessage"/>
+            <output message="tns:chargeResponseMessage"/>
+        </operation>
+    </portType>
+
+    <!-- BINDING -->
+    <binding name="PaymentsSOAPBinding"
+             type="tns:PaymentsPortType">
+
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"
+                      style="document"/>
+
+        <operation name="charge">
+            <soap:operation soapAction="urn:unipay:payments/charge"/>
+
+            <input>
+                <soap:body use="literal"/>
+            </input>
+
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+
+    </binding>
+
+    <!-- SERVICE -->
+    <service name="PaymentsService">
+
+        <port name="PaymentsSOAPPort"
+              binding="tns:PaymentsSOAPBinding">
+
+            <soap:address
+                location="https://api.unipay-campus.example/payments"/>
+
+        </port>
+
+    </service>
+
+</definitions>

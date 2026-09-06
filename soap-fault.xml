@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:uni="urn:unipay:payments">
+
+    <soap:Body>
+
+        <soap:Fault>
+
+            <faultcode>
+                soap:Client
+            </faultcode>
+
+            <faultstring>
+                Card declined by issuer
+            </faultstring>
+
+            <faultactor>
+                https://api.unipay-campus.example/payments
+            </faultactor>
+
+            <detail>
+
+                <uni:error>
+
+                    <code>
+                        CARD_DECLINED
+                    </code>
+
+                    <message>
+                        Transaction declined.
+                        Please contact your bank.
+                    </message>
+
+                    <declineReason>
+                        INSUFFICIENT_FUNDS
+                    </declineReason>
+
+                </uni:error>
+
+            </detail>
+
+        </soap:Fault>
+
+    </soap:Body>
+
+</soap:Envelope>
